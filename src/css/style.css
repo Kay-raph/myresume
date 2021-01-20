@@ -919,20 +919,20 @@ font-size: smaller;
     .hed{
         margin: 2px;
     }
-    .hed a{
+    .hed h1 a{
         display: inline-block;
         position: relative;
         z-index: 1;
         color: white;
-        margin: 10px;
+        margin: 5px;
         padding: 5px;
         background-color: rgba(0, 0, 0, 0.5);
         border-radius: 5px;
         width: 20%;
         transition: ease-in-out 0.6s;
     }
-    .hed h1{
-        font-size: 28px;
+    .hed h1 a{
+        font-size: 13px;
     }
     .prelude{
         position: relative;
