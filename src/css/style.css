@@ -1,0 +1,2436 @@
+body,
+html{
+    margin: 0;
+    scroll-behavior: smooth;
+}
+.hed{
+    margin: 10px;
+}
+.hed a{
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    color: white;
+    margin: 30px auto;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    width: 250px;
+    transition: ease-in-out 0.6s;
+}
+.hed a:hover{
+    transition: ease-in-out 0.6s;
+    text-decoration: none;
+    background-color: aqua;
+}
+.prelude{
+    position: relative;
+    z-index: 1;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    height: 300px;
+}
+.prelude span{
+    color: aqua;
+}
+.prelude h1{
+    text-align: center;
+    color: white;
+    font-size: 8vw;
+    top: 150px;
+    position: relative;
+    font-weight: bold;
+}
+.nav{
+    height: 180px;
+    width: 60%;
+    position: relative;
+    z-index: 1;
+    margin: auto;
+}
+.nav a{
+    margin-left: 50px auto;
+    text-align: center;
+}
+.nav img{
+    width: 50px;
+    margin: 10px;
+    transition: ease-in-out .5s;
+    top: 70px;
+    position: relative;
+}
+.nav img:hover{
+    transition: ease-in-out 0.5s;
+    transform: scale(1.2);
+}
+.abo{
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+    background-color: rgba(0.2, 0.2, 0.2, 0.5); 
+    border-radius: 15px; 
+    padding: 20px;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+.educ li{
+    font-size: x-large;
+}
+  h2{
+      position: relative;
+    text-align: center;
+    color: white;
+    font-size: 2vw;
+    margin: 30px;
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 10px;
+    width: 350px;
+    z-index: 1;
+    text-decoration: none;
+}
+h2:hover{
+    text-decoration: none;
+}
+h3{
+    font-size: 1.5vw;
+}
+h4{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    font-weight: bold;
+    color: #0d8df0;
+    box-shadow: 0 0 25px black;
+    background-color: darkgray;
+    border-radius: 5px;
+    padding: 10px 0px;
+    width: 10%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+h4:hover{
+    color: aqua;
+}
+hr{
+    position: relative;
+    display: flex;
+     border: none;
+    border-top: 3px double rgb(226, 226, 226);
+    color: rgb(235, 229, 229);
+    overflow: visible;
+    height: 5px;
+    text-align: center;
+     box-shadow: inset 0 10px 7px -10px #0d8df0;
+}
+.pdf a,
+.pdf p{
+    position: relative;
+    text-decoration: none;
+    color: #ffffff;
+     transition: 1.5s;
+    -webkit-transition: 1.5s;
+    -moz-transition: 1.5s;
+    -ms-transition: 1.5s;
+    -o-transition: 1.5s;
+   }
+.pdf a:hover,
+.pdf p:hover{
+    color: #0d8df0;
+    text-shadow: solid wheat;
+}
+.cv{
+    position: relative;
+}
+.bck{
+    position: relative;
+    padding: 10px;
+    font-size: 28px;
+}
+.abo p{
+    color: white; 
+    font-size: 20px; 
+    text-align: justify; 
+    padding: 30px;
+}
+.educ,
+.hob{
+    position: relative;
+    z-index: 1;
+    margin: 30px;
+}
+.skill {
+    text-align: center;
+    margin: 0px;
+    position: relative;
+    z-index: 1;
+}
+/*START OF SKILLS STYLING*/
+.exp img,
+.dev img,
+.grap img,
+.ex img{
+height: 90px;
+} 
+
+.exp {
+    position: relative;
+    display: inline-block;
+    width: 40%;
+    padding: 30px 10px;
+    margin: 2%;
+    text-align: center;
+    border-radius: 25px;
+    transition: all 0.35s ease-in-out;
+    color: white;
+}
+
+.exp:hover {
+    background-color: rgba(0.2, 0.2, 0.2, 0.5);
+    color: aqua;
+    transition: all 0.35s ease-in-out;
+}
+
+.dev {
+    position: relative;
+    display: inline-block;
+    width: 40%;
+    padding: 30px 10px;
+    margin: 2%;
+    text-align: center;
+    color: white;
+    border-radius: 25px;
+    transition: all 0.35s ease-in-out;
+}
+
+.dev:hover {
+    background-color: rgba(0.2, 0.2, 0.2, 0.5);
+    color: aqua;
+    transition: all 0.35s ease-in-out;
+}
+
+.grap {
+    position: relative;
+    display: inline-block;
+    width: 40%;
+    padding: 30px 10px;
+    margin: 2%;
+    text-align: center;
+    color: white;
+    border-radius: 25px;
+    transition: all 0.35s ease-in-out;
+}
+
+.grap:hover {
+    background-color: rgba(0.2, 0.2, 0.2, 0.5);
+    color: aqua;
+    transition: all 0.35s ease-in-out;
+}
+
+ .ex {
+    position: relative;
+    display: inline-block;
+    width: 40%;
+    padding: 30px 10px;
+    margin: 2%;
+    text-align: center;
+    color: white;
+    border-radius: 25px;
+    transition: all 0.35s ease-in-out;
+}
+
+.ex:hover {
+    background-color: rgba(0.2, 0.2, 0.2, 0.5);
+    color: aqua;
+    transition: all 0.35s ease-in-out;
+}
+#p1,
+#p2,
+#p3,
+#p4 {
+    display: none;
+    text-align: justify;
+    color: white;
+}
+
+.contac{
+    position: relative;
+    margin-left: 100px;
+}
+.contacc h3{
+    color: aqua;
+}
+.contac h3{
+    color: aqua;
+}
+.contac p,
+.contacc p{
+    color: white;
+    font-size: 22px;
+}
+
+.column-left{
+    float: left;
+    width: 48%;
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+}
+.column-right{
+    float: right;
+    width: 48%;
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+}
+/* FORM */
+.contacc{
+    position: relative;
+    margin-left: 100px;
+}
+.form {
+    text-align: center;
+    box-shadow: burlywood;
+    box-shadow: 0 0 25px black;
+    background-color: transparent;
+    border-radius: 25px;
+    margin-left: 200px;
+}
+
+.form-group input {
+    width: 90%;
+    border: 0;
+    outline: none !important;
+    padding: 5px;
+    margin: 2%;
+    display: inline-block;
+    background-color: wheat;
+    border-radius: 5px;
+    font-size: small;
+}
+
+.form-group textarea {
+    width: 90%;
+    border: 0;
+    outline: none !important;
+    padding: 10px;
+    margin: 2%;
+    background-color: wheat;
+    border-radius: 5px;
+    font-size: small;
+}
+
+.submit-btn {
+    border: 0;
+    color: black;
+    text-decoration: none;
+    outline: none !important;
+    padding: 7px;
+    margin: 2%;
+    background-color: wheat;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.submit-btn:hover {
+    background-color: darkgray;
+}
+.foot{
+    margin: 5px;
+    margin: 10px;
+}
+.foot a{
+    font-size: 28px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: ease-in-out 0.6s;
+    text-align: center;
+}
+.foot a:hover{
+    transition: ease-in-out 0.6s;
+    text-decoration: none;
+    background-color: aqua;
+}
+.foot h1{
+    text-align: justify;
+}
+/* ----------- Iphone 4, 4s ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .hed{
+        margin: 2px;
+    }
+    .hed a{
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        color: white;
+        margin: 10px;
+        padding: 5px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+        width: 70px;
+        transition: ease-in-out 0.6s;
+    }
+    .hed h1{
+        font-size: smaller;
+    }
+    .prelude{
+        position: relative;
+        z-index: 1;
+        /* background-color: rgba(0, 0, 0, 0.5); */
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+        height: 100px;
+    }
+    .prelude span{
+        color: aqua;
+    }
+    .prelude h1{
+        text-align: center;
+        color: white;
+        font-size: 8vw;
+        top: 20px;
+        position: relative;
+    }
+    .nav{
+        height: 80px;
+        width: 80%;
+        position: relative;
+        z-index: 1;
+    }
+    .nav img{
+        width: 20px;
+        margin: 5px;
+        transition: ease-in-out .5s;
+        top: 50px;
+        position: relative;
+    }
+  
+      h2{
+          position: relative;
+        text-align: center;
+        color: white;
+        font-size: small;
+        margin: 20px;
+        padding: 10px;
+        background-color: aqua;
+        border-radius: 10px;
+        width: 150px;
+        z-index: 1;
+        text-decoration: none;
+    }
+    h3{
+        font-size: small;
+    }
+    h4{
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        font-weight: bold;
+        color: #0d8df0;
+        box-shadow: 0 0 25px black;
+        background-color: darkgray;
+        border-radius: 5px;
+        padding: 10px 0px;
+        width: 40%;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+    .abo{
+        position: relative;
+        z-index: 1;
+        border-radius: 10px;
+        background-color: rgba(0.2, 0.2, 0.2, 0.5);  
+        padding: 10px;
+        width: 90%;
+        margin: auto;
+    }
+    .abo p{
+        color: white; 
+        font-size: 10px; 
+        text-align: justify; 
+        padding: 10px;
+    }
+    .educ,
+.hob{
+    position: relative;
+    z-index: 1;
+    margin: 10px;
+}
+    .educ li{
+        font-size: smaller;
+    }
+    .hob li{
+        font-size: x-small;
+    }
+    .educ p{
+        font-size: x-small;
+    }
+    .exp {
+        position: relative;
+        display: inline-block;
+        width: 40%;
+        padding: 30px 10px;
+        margin: 1%;
+        text-align: center;
+        border-radius: 15px;
+        transition: all 0.35s ease-in-out;
+        color: white;
+    }
+    .dev {
+        position: relative;
+        display: inline-block;
+        width: 40%;
+        padding: 30px 10px;
+        margin: 1%;
+        text-align: center;
+        border-radius: 15px;
+        transition: all 0.35s ease-in-out;
+        color: white;
+    }
+    .grap {
+        position: relative;
+        display: inline-block;
+        width: 40%;
+        padding: 30px 10px;
+        margin: 1%;
+        text-align: center;
+        border-radius: 15px;
+        transition: all 0.35s ease-in-out;
+        color: white;
+    }
+    .ex {
+        position: relative;
+        display: inline-block;
+        width: 40%;
+        padding: 30px 10px;
+        margin: 1%;
+        text-align: center;
+        border-radius: 15px;
+        transition: all 0.35s ease-in-out;
+        color: white;
+    }
+       .exp img,
+       .dev img,
+       .grap img,
+       .ex img{
+height: 50px;
+       } 
+.exp h3{
+font-size: smaller;
+       } 
+                
+.dev h3{
+font-size: smaller;
+       } 
+                
+.ex h3{
+font-size: smaller;
+       } 
+                
+.grap h3{
+font-size: smaller;
+       } 
+    
+    .contac{
+        position: relative;
+        margin-left: 50px;
+    }
+    .column-left{
+        width: 90%;
+        position: relative;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        padding: 10px;
+        margin: 5px;
+        display: block;
+        margin-left: 20px;
+    }
+    .column-right{
+        width: 90%;
+        position: relative;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        padding: 10px;
+        margin: 5px;
+        float: left;
+        margin-left: 20px;
+    }
+    /* FORM */
+    .contacc{
+        position: relative;
+        margin-left: 20px;
+    }
+    .form {
+        text-align: center;
+        box-shadow: burlywood;
+        box-shadow: 0 0 25px black;
+        background-color: transparent;
+        border-radius: 5px;
+        margin-left: 200px;
+    }
+    
+    .form-group input {
+        width: 90%;
+        border: 0;
+        outline: none !important;
+        padding: 5px;
+        margin:1%;
+        display: inline-block;
+        background-color: wheat;
+        border-radius: 2px;
+        font-size: xx-small;
+    }
+    
+    .form-group textarea {
+        width: 90%;
+        border: 0;
+        outline: none !important;
+        padding: 5px;
+        margin: 1%;
+        background-color: wheat;
+        border-radius: 2px;
+        font-size: xx-small;
+    }
+    
+    .submit-btn {
+        border: 0;
+        color: black;
+        text-decoration: none;
+        outline: none !important;
+        padding: 5px;
+        margin: 2%;
+        background-color: wheat;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .submit-btn a{
+        font-size: 10px;
+    }
+    
+    .foot{
+        margin: 2px;
+    }
+    
+        .foot a{
+            font-size: 12px;
+            display: inline-block;
+            position: relative;
+            z-index: 1;
+            color: white;
+            margin: 2px;
+            padding: 5px;
+            border-radius: 10px;
+            transition: ease-in-out 0.6s;
+            text-align: center;
+        }
+   }
+   /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .hed{
+        margin: 2px;
+    }
+    .hed a{
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        color: white;
+        margin: 3px;
+        padding: 5px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+        width: 70px;
+        transition: ease-in-out 0.6s;
+    }
+    .hed h1{
+        font-size: smaller;
+    }
+    .prelude{
+        position: relative;
+        z-index: 1;
+        /* background-color: rgba(0, 0, 0, 0.5); */
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+        height: 100px;
+    }
+    .prelude span{
+        color: aqua;
+    }
+    .prelude h1{
+        text-align: center;
+        color: white;
+        font-size: 8vw;
+        top: 20px;
+        position: relative;
+    }
+    .nav{
+        height: 80px;
+        width: 80%;
+        position: relative;
+        z-index: 1;
+    }
+    .nav img{
+        width: 20px;
+        margin: 5px;
+        transition: ease-in-out .5s;
+        top: 50px;
+        position: relative;
+    }
+    
+      h2{
+          position: relative;
+        text-align: center;
+        color: white;
+        font-size: small;
+        margin: 20px;
+        padding: 10px;
+        background-color: aqua;
+        border-radius: 10px;
+        width: 150px;
+        z-index: 1;
+        text-decoration: none;
+    }
+    h3{
+        font-size: small;
+    }
+    .abo{
+        position: relative;
+        z-index: 1;
+        border-radius: 10px;
+        background-color: rgba(0.2, 0.2, 0.2, 0.5);  
+        padding: 10px;
+        width: 90%;
+        margin: auto;
+    }
+    .abo p{
+        color: white; 
+        font-size: 10px; 
+        text-align: justify; 
+        padding: 10px;
+    }
+    .educ,
+.hob{
+    position: relative;
+    z-index: 1;
+    margin: 10px;
+}
+    .educ li{
+        font-size: smaller;
+    }
+    .hob li{
+        font-size: x-small;
+    }
+    .educ p{
+        font-size: x-small;
+    }
+    .exp {
+        position: relative;
+        display: inline-block;
+        width: 40%;
+        padding: 30px 10px;
+        margin: 1%;
+        text-align: center;
+        border-radius: 15px;
+        transition: all 0.35s ease-in-out;
+        color: white;
+    }
+    .dev {
+        position: relative;
+        display: inline-block;
+        width: 40%;
+        padding: 30px 10px;
+        margin: 1%;
+        text-align: center;
+        border-radius: 15px;
+        transition: all 0.35s ease-in-out;
+        color: white;
+    }
+    .grap {
+        position: relative;
+        display: inline-block;
+        width: 40%;
+        padding: 30px 10px;
+        margin: 1%;
+        text-align: center;
+        border-radius: 15px;
+        transition: all 0.35s ease-in-out;
+        color: white;
+    }
+    .ex {
+        position: relative;
+        display: inline-block;
+        width: 40%;
+        padding: 30px 10px;
+        margin: 1%;
+        text-align: center;
+        border-radius: 15px;
+        transition: all 0.35s ease-in-out;
+        color: white;
+    }
+       .exp img,
+       .dev img,
+       .grap img,
+       .ex img{
+height: 50px;
+       } 
+.exp h3{
+font-size: smaller;
+       } 
+                
+.dev h3{
+font-size: smaller;
+       } 
+                
+.ex h3{
+font-size: smaller;
+       } 
+                
+.grap h3{
+font-size: smaller;
+       } 
+     
+    .contac{
+        position: relative;
+        margin-left: 50px;
+    }
+    .column-left{
+        width: 90%;
+        position: relative;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        padding: 10px;
+        margin: 5px;
+        display: block;
+        margin-left: 20px;
+    }
+    .column-right{
+        width: 90%;
+        position: relative;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        padding: 10px;
+        margin: 5px;
+        float: left;
+        margin-left: 20px;
+    }
+    /* FORM */
+    .contacc{
+        position: relative;
+        margin-left: 20px;
+    }
+    .form {
+        text-align: center;
+        box-shadow: burlywood;
+        box-shadow: 0 0 25px black;
+        background-color: transparent;
+        border-radius: 5px;
+        margin-left: 200px;
+    }
+    
+    .form-group input {
+        width: 90%;
+        border: 0;
+        outline: none !important;
+        padding: 5px;
+        margin:1%;
+        display: inline-block;
+        background-color: wheat;
+        border-radius: 2px;
+        font-size: xx-small;
+    }
+    
+    .form-group textarea {
+        width: 90%;
+        border: 0;
+        outline: none !important;
+        padding: 5px;
+        margin: 1%;
+        background-color: wheat;
+        border-radius: 2px;
+        font-size: xx-small;
+    }
+    
+    .submit-btn {
+        border: 0;
+        color: black;
+        text-decoration: none;
+        outline: none !important;
+        padding: 5px;
+        margin: 2%;
+        background-color: wheat;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .submit-btn a{
+        font-size: xx-small;
+    }
+    .contac p{
+        font-size: x-small;
+    }
+    .foot{
+        margin: 2px;
+    }
+    .foot a{
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        color: white;
+        margin: 5px;
+        padding: 5px;
+        transition: ease-in-out 0.6s;
+    }
+    .foot h1{
+        font-size: small;
+    }
+   }
+/* ----------- Android ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 576px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .hed{
+        margin: 2px;
+    }
+    .hed a{
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        color: white;
+        margin: 10px;
+        padding: 5px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+        width: 20%;
+        transition: ease-in-out 0.6s;
+    }
+    .hed h1{
+        font-size: 28px;
+    }
+    .prelude{
+        position: relative;
+        z-index: 1;
+        /* background-color: rgba(0, 0, 0, 0.5); */
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+        height: 100px;
+    }
+    .prelude span{
+        color: aqua;
+    }
+    .prelude h1{
+        text-align: center;
+        color: white;
+        font-size: 8vw;
+        top: 20px;
+        position: relative;
+    }
+    .nav{
+        height: 80px;
+        width: 80%;
+        position: relative;
+        z-index: 1;
+    }
+    .nav img{
+        width: 20px;
+        margin: 5px;
+        transition: ease-in-out .5s;
+        top: 50px;
+        position: relative;
+    }
+  
+      h2{
+          position: relative;
+        text-align: center;
+        color: white;
+        font-size: small;
+        margin: 20px;
+        padding: 10px;
+        background-color: aqua;
+        border-radius: 10px;
+        width: 150px;
+        z-index: 1;
+        text-decoration: none;
+    }
+    h3{
+        font-size: small;
+    }
+    .abo{
+        position: relative;
+        z-index: 1;
+        border-radius: 10px;
+        background-color: rgba(0.2, 0.2, 0.2, 0.5);  
+        padding: 10px;
+        width: 90%;
+        margin: auto;
+    }
+    .abo p{
+        color: white; 
+        font-size: 10px; 
+        text-align: justify; 
+        padding: 10px;
+    }
+    .educ,
+.hob{
+    position: relative;
+    z-index: 1;
+    margin: 10px;
+}
+    .educ li{
+        font-size: smaller;
+    }
+    .hob li{
+        font-size: x-small;
+    }
+    .educ p{
+        font-size: x-small;
+    }
+    .exp {
+        position: relative;
+        display: inline-block;
+        width: 40%;
+        padding: 30px 10px;
+        margin: 1%;
+        text-align: center;
+        border-radius: 15px;
+        transition: all 0.35s ease-in-out;
+        color: white;
+    }
+    .dev {
+        position: relative;
+        display: inline-block;
+        width: 40%;
+        padding: 30px 10px;
+        margin: 1%;
+        text-align: center;
+        border-radius: 15px;
+        transition: all 0.35s ease-in-out;
+        color: white;
+    }
+    .grap {
+        position: relative;
+        display: inline-block;
+        width: 40%;
+        padding: 30px 10px;
+        margin: 1%;
+        text-align: center;
+        border-radius: 15px;
+        transition: all 0.35s ease-in-out;
+        color: white;
+    }
+    .ex {
+        position: relative;
+        display: inline-block;
+        width: 40%;
+        padding: 30px 10px;
+        margin: 1%;
+        text-align: center;
+        border-radius: 15px;
+        transition: all 0.35s ease-in-out;
+        color: white;
+    }
+       .exp img,
+       .dev img,
+       .grap img,
+       .ex img{
+height: 50px;
+       } 
+.exp h3{
+font-size: smaller;
+       } 
+                
+.dev h3{
+font-size: smaller;
+       } 
+                
+.ex h3{
+font-size: smaller;
+       } 
+                
+.grap h3{
+font-size: smaller;
+       } 
+     
+    .contac{
+        position: relative;
+        margin-left: 50px;
+    }
+    .column-left{
+        width: 90%;
+        position: relative;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        padding: 10px;
+        margin: 5px;
+        display: block;
+        margin-left: 20px;
+    }
+    .column-right{
+        width: 90%;
+        position: relative;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        padding: 10px;
+        margin: 5px;
+        float: left;
+        margin-left: 20px;
+    }
+    /* FORM */
+    .contacc{
+        position: relative;
+        margin-left: 20px;
+    }
+    .form {
+        text-align: center;
+        box-shadow: burlywood;
+        box-shadow: 0 0 25px black;
+        background-color: transparent;
+        border-radius: 5px;
+        margin-left: 200px;
+    }
+    
+    .form-group input {
+        width: 90%;
+        border: 0;
+        outline: none !important;
+        padding: 5px;
+        margin:1%;
+        display: inline-block;
+        background-color: wheat;
+        border-radius: 2px;
+        font-size: xx-small;
+    }
+    
+    .form-group textarea {
+        width: 90%;
+        border: 0;
+        outline: none !important;
+        padding: 5px;
+        margin: 1%;
+        background-color: wheat;
+        border-radius: 2px;
+        font-size: xx-small;
+    }
+    
+    .submit-btn {
+        border: 0;
+        color: black;
+        text-decoration: none;
+        outline: none !important;
+        padding: 5px;
+        margin: 2%;
+        background-color: wheat;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .submit-btn a{
+        font-size: xx-small;
+    }
+    .contac p{
+        font-size: x-small;
+    }
+    .foot{
+        margin: 2px;
+    }
+    .foot a{
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        color: white;
+        margin: 5px;
+        padding: 5px;
+        transition: ease-in-out 0.6s;
+    }
+   }
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .hed a{
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        color: white;
+        margin: 10px;
+        padding: 5px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+        width: 20%;
+        transition: ease-in-out 0.6s;
+    }
+    .hed h1{
+        font-size: 28px;
+    }
+    .foot{
+        margin: 2px;
+    }
+    .foot a{
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        color: white;
+        margin: 5px;
+        padding: 5px;
+        transition: ease-in-out 0.6s;
+    }
+ }
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) {
+   
+    .foot{
+        margin: 2px;
+    }
+    .foot a{
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        color: white;
+        margin: 5px;
+        padding: 5px;
+        transition: ease-in-out 0.6s;
+    }
+ }
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .foot{
+        margin: 2px;
+    }
+    .foot a{
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        color: white;
+        margin: 5px;
+        padding: 5px;
+        transition: ease-in-out 0.6s;
+    }
+}
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+  .hed{
+      margin: 2px;
+  }
+  .hed a{
+      display: inline-block;
+      position: relative;
+      z-index: 1;
+      color: white;
+      margin: 10px;
+      padding: 5px;
+      background-color: rgba(0, 0, 0, 0.5);
+      border-radius: 5px;
+      width: 150px;
+      transition: ease-in-out 0.6s;
+  }
+  .hed h1{
+      font-size: 25px;
+  }
+  .prelude{
+      position: relative;
+      z-index: 1;
+      /* background-color: rgba(0, 0, 0, 0.5); */
+      width: 100%;
+      margin: auto;
+      padding: 10px;
+      height: 200px;
+  }
+  .prelude span{
+      color: aqua;
+  }
+  .prelude h1{
+      text-align: center;
+      color: white;
+      font-size: 8vw;
+      top: 120px;
+      position: relative;
+  }
+  .nav{
+      height: 80px;
+      width: 80%;
+      position: relative;
+      z-index: 1;
+  }
+  .nav img{
+      width: 50px;
+      margin: 5px;
+      transition: ease-in-out .5s;
+      top: 30px;
+      position: relative;
+  }
+
+    h2{
+        position: relative;
+      text-align: center;
+      color: white;
+      font-size: 22px;
+      margin: 20px;
+      padding: 10px;
+      background-color: aqua;
+      border-radius: 10px;
+      width: 180px;
+      z-index: 1;
+      text-decoration: none;
+  }
+  h3{
+      font-size: medium;
+  }
+  .abo{
+      position: relative;
+      z-index: 1;
+      border-radius: 10px;
+      background-color: rgba(0.2, 0.2, 0.2, 0.5);  
+      padding: 10px;
+      width: 90%;
+      margin: auto;
+  }
+  .abo p{
+      color: white; 
+      font-size: 15px; 
+      text-align: justify; 
+      padding: 10px;
+  }
+  .educ,
+.hob{
+  position: relative;
+  z-index: 1;
+  margin: 10px;
+}
+  .educ li{
+      font-size: small;
+  }
+  .hob li{
+      font-size: small;
+  }
+  .educ p{
+      font-size: small;
+  }
+  .exp {
+      position: relative;
+      display: inline-block;
+      width: 40%;
+      padding: 30px 10px;
+      margin: 1%;
+      text-align: center;
+      border-radius: 15px;
+      transition: all 0.35s ease-in-out;
+      color: white;
+  }
+  .dev {
+      position: relative;
+      display: inline-block;
+      width: 40%;
+      padding: 30px 10px;
+      margin: 1%;
+      text-align: center;
+      border-radius: 15px;
+      transition: all 0.35s ease-in-out;
+      color: white;
+  }
+  .grap {
+      position: relative;
+      display: inline-block;
+      width: 40%;
+      padding: 30px 10px;
+      margin: 1%;
+      text-align: center;
+      border-radius: 15px;
+      transition: all 0.35s ease-in-out;
+      color: white;
+  }
+  .ex {
+      position: relative;
+      display: inline-block;
+      width: 40%;
+      padding: 30px 10px;
+      margin: 1%;
+      text-align: center;
+      border-radius: 15px;
+      transition: all 0.35s ease-in-out;
+      color: white;
+  }
+     .exp img,
+     .dev img,
+     .grap img,
+     .ex img{
+height: 50px;
+     } 
+.exp h3{
+font-size: small;
+     } 
+              
+.dev h3{
+font-size: small;
+     } 
+              
+.ex h3{
+font-size: small;
+     } 
+              
+.grap h3{
+font-size: small;
+     } 
+    
+  .contac{
+      position: relative;
+      margin-left: 30px;
+  }
+  .column-left{
+      width: 90%;
+      position: relative;
+      background: rgba(0, 0, 0, 0.5);
+      border-radius: 10px;
+      padding: 10px;
+      margin: 5px;
+      display: block;
+      margin-left: 40px;
+  }
+  .column-right{
+      width: 90%;
+      position: relative;
+      background: rgba(0, 0, 0, 0.5);
+      border-radius: 10px;
+      padding: 10px;
+      margin: 5px;
+      float: left;
+      margin-left: 40px;
+  }
+  /* FORM */
+  .contacc{
+      position: relative;
+      margin-left: 20px;
+  }
+  .form {
+      text-align: center;
+      box-shadow: burlywood;
+      box-shadow: 0 0 25px black;
+      background-color: transparent;
+      border-radius: 5px;
+      margin-left: 200px;
+  }
+  
+  .form-group input {
+      width: 90%;
+      border: 0;
+      outline: none !important;
+      padding: 5px;
+      margin:1%;
+      display: inline-block;
+      background-color: wheat;
+      border-radius: 2px;
+      font-size: xx-small;
+  }
+  
+  .form-group textarea {
+      width: 90%;
+      border: 0;
+      outline: none !important;
+      padding: 5px;
+      margin: 1%;
+      background-color: wheat;
+      border-radius: 2px;
+      font-size: xx-small;
+  }
+  
+  .submit-btn {
+      border: 0;
+      color: black;
+      text-decoration: none;
+      outline: none !important;
+      padding: 5px;
+      margin: 2%;
+      background-color: wheat;
+      cursor: pointer;
+      border-radius: 5px;
+  }
+  .submit-btn a{
+      font-size: xx-small;
+  }
+  .contac p{
+      font-size: x-small;
+  }
+  .foot{
+    margin: 2px;
+}
+.foot a{
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    transition: ease-in-out 0.6s;
+}
+ }
+/* ----------- iPad Pro 12.9" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  .hed{
+      margin: 2px;
+  }
+  .hed a{
+      display: inline-block;
+      position: relative;
+      z-index: 1;
+      color: white;
+      margin: 20px;
+      padding: 5px;
+      background-color: rgba(0, 0, 0, 0.5);
+      border-radius: 5px;
+      width: 200px;
+      transition: ease-in-out 0.6s;
+  }
+  .hed h1{
+      font-size: 35px;
+  }
+  .prelude{
+      position: relative;
+      z-index: 1;
+      /* background-color: rgba(0, 0, 0, 0.5); */
+      width: 100%;
+      margin: auto;
+      padding: 10px;
+      height: 250px;
+  }
+  .prelude span{
+      color: aqua;
+  }
+  .prelude h1{
+      text-align: center;
+      color: white;
+      font-size: 8vw;
+      top: 150px;
+      position: relative;
+  }
+  .nav{
+      height: 80px;
+      width: 80%;
+      position: relative;
+      z-index: 1;
+  }
+  .nav img{
+      width: 60px;
+      margin: 5px;
+      transition: ease-in-out .5s;
+      top: 40px;
+      position: relative;
+  }
+  
+    h2{
+        position: relative;
+      text-align: center;
+      color: white;
+      font-size: 30px;
+      margin: 20px;
+      padding: 10px;
+      background-color: aqua;
+      border-radius: 10px;
+      width: 250px;
+      z-index: 1;
+      text-decoration: none;
+  }
+  h3{
+      font-size: 28px;
+  }
+  .abo{
+      position: relative;
+      z-index: 1;
+      border-radius: 10px;
+      background-color: rgba(0.2, 0.2, 0.2, 0.5);  
+      padding: 10px;
+      width: 90%;
+      margin: auto;
+  }
+  .abo p{
+      color: white; 
+      font-size: 22px; 
+      text-align: justify; 
+      padding: 10px;
+  }
+  .educ,
+.hob{
+  position: relative;
+  z-index: 1;
+  margin: 10px;
+}
+  .educ li{
+      font-size: 20px;
+  }
+  .hob li{
+      font-size: 18px;
+  }
+  .educ p{
+      font-size: 18px;
+  }
+  .exp {
+      position: relative;
+      display: inline-block;
+      width: 40%;
+      padding: 30px 10px;
+      margin: 1%;
+      text-align: center;
+      border-radius: 15px;
+      transition: all 0.35s ease-in-out;
+      color: white;
+  }
+  .dev {
+      position: relative;
+      display: inline-block;
+      width: 40%;
+      padding: 30px 10px;
+      margin: 1%;
+      text-align: center;
+      border-radius: 15px;
+      transition: all 0.35s ease-in-out;
+      color: white;
+  }
+  .grap {
+      position: relative;
+      display: inline-block;
+      width: 40%;
+      padding: 30px 10px;
+      margin: 1%;
+      text-align: center;
+      border-radius: 15px;
+      transition: all 0.35s ease-in-out;
+      color: white;
+  }
+  .ex {
+      position: relative;
+      display: inline-block;
+      width: 40%;
+      padding: 30px 10px;
+      margin: 1%;
+      text-align: center;
+      border-radius: 15px;
+      transition: all 0.35s ease-in-out;
+      color: white;
+  }
+     .exp img,
+     .dev img,
+     .grap img,
+     .ex img{
+height: 100px;
+     } 
+.exp h3{
+font-size: 22px;
+     } 
+              
+.dev h3{
+font-size: 22px;
+     } 
+              
+.ex h3{
+font-size: 22px;
+     } 
+              
+.grap h3{
+font-size: 22px;
+     } 
+   
+  .contac{
+      position: relative;
+      margin-left: 50px;
+  }
+  .contac b{
+      font-size: 25px;
+  }
+  .contacc h3{
+      font-size: 30px;
+  }
+  .contac h3{
+    font-size: 30px;
+}
+  .column-left{
+      width: 90%;
+      position: relative;
+      background: rgba(0, 0, 0, 0.5);
+      border-radius: 10px;
+      padding: 10px;
+      margin: 5px;
+      display: block;
+      margin-left: 50px;
+  }
+  .column-right{
+      width: 90%;
+      position: relative;
+      background: rgba(0, 0, 0, 0.5);
+      border-radius: 10px;
+      padding: 10px;
+      margin: 5px;
+      float: left;
+      margin-left: 50px;
+  }
+  /* FORM */
+  .contacc{
+      position: relative;
+      margin-left: 20px;
+  }
+  .form {
+      text-align: center;
+      box-shadow: burlywood;
+      box-shadow: 0 0 25px black;
+      background-color: transparent;
+      border-radius: 5px;
+      margin-left: 200px;
+  }
+  
+  .form-group input {
+      width: 90%;
+      border: 0;
+      outline: none !important;
+      padding: 5px;
+      margin:1%;
+      display: inline-block;
+      background-color: wheat;
+      border-radius: 2px;
+      font-size: small;
+  }
+  
+  .form-group textarea {
+      width: 90%;
+      border: 0;
+      outline: none !important;
+      padding: 5px;
+      margin: 1%;
+      background-color: wheat;
+      border-radius: 2px;
+      font-size: small;
+  }
+  
+  .submit-btn {
+      border: 0;
+      color: black;
+      text-decoration: none;
+      outline: none !important;
+      padding: 5px;
+      margin: 2%;
+      background-color: wheat;
+      cursor: pointer;
+      border-radius: 5px;
+  }
+  .submit-btn a{
+      font-size: small;
+  }
+  .foot{
+    margin: 2px;
+}
+.foot a{
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    color: white;
+    margin: 12px;
+    padding: 5px;
+    transition: ease-in-out 0.6s;
+}
+ }
+     /* ----------- Surface Duo ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 540px) 
+and (max-device-width: 720px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+    .hed{
+        margin: 2px;
+    }
+    .hed a{
+        font-size: 11px;
+        text-align: center;
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        color: white;
+        margin: 20px;
+        padding: 5px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+        width: 15%;
+        transition: ease-in-out 0.6s;
+    }
+   
+    .contac{
+        position: relative;
+        margin-left: 50px;
+    }
+    .column-left{
+        width: 90%;
+        position: relative;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        padding: 10px;
+        margin: 5px;
+        display: block;
+        margin-left: 20px;
+    }
+    .column-right{
+        width: 90%;
+        position: relative;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        padding: 10px;
+        margin: 5px;
+        float: left;
+        margin-left: 20px;
+    }
+    /* FORM */
+    .contacc{
+        position: relative;
+        margin-left: 20px;
+    }
+    .form {
+        text-align: center;
+        box-shadow: burlywood;
+        box-shadow: 0 0 25px black;
+        background-color: transparent;
+        border-radius: 5px;
+        margin-left: 200px;
+    }
+    
+    .form-group input {
+        width: 90%;
+        border: 0;
+        outline: none !important;
+        padding: 5px;
+        margin:1%;
+        display: inline-block;
+        background-color: wheat;
+        border-radius: 2px;
+        font-size: xx-small;
+    }
+    
+    .form-group textarea {
+        width: 90%;
+        border: 0;
+        outline: none !important;
+        padding: 5px;
+        margin: 1%;
+        background-color: wheat;
+        border-radius: 2px;
+        font-size: xx-small;
+    }
+    
+    .submit-btn {
+        border: 0;
+        color: black;
+        text-decoration: none;
+        outline: none !important;
+        padding: 5px;
+        margin: 2%;
+        background-color: wheat;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .submit-btn a{
+        font-size: xx-small;
+    }
+    .contac p{
+        font-size: x-small;
+    }
+    .foot{
+        margin: 2px;
+    }
+    .foot a{
+        font-size: 18px;
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        color: white;
+        margin: 5px;
+        padding: 5px;
+        transition: ease-in-out 0.6s;
+    }
+ 
+}
+   /* ----------- galaxy fold ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 280px) 
+and (max-device-width: 653px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .hed{
+        margin: 2px;
+    }
+    .hed a{
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        color: white;
+        margin: 2px;
+        padding: 4px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+        width: 50px;
+        transition: ease-in-out 0.6s;
+    }
+    .hed h1{
+        font-size: 8px;
+    }
+    .prelude{
+        position: relative;
+        z-index: 1;
+        /* background-color: rgba(0, 0, 0, 0.5); */
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+        height: 100px;
+    }
+    .prelude span{
+        color: aqua;
+    }
+    .prelude h1{
+        text-align: center;
+        color: white;
+        font-size: 8vw;
+        top: 20px;
+        position: relative;
+    }
+    .nav{
+        height: 80px;
+        width: 80%;
+        position: relative;
+        z-index: 1;
+    }
+    .nav img{
+        width: 20px;
+        margin: 5px;
+        transition: ease-in-out .5s;
+        top: 50px;
+        position: relative;
+    }
+   
+      h2{
+          position: relative;
+        text-align: center;
+        color: white;
+        font-size: small;
+        margin: 20px;
+        padding: 10px;
+        background-color: aqua;
+        border-radius: 10px;
+        width: 150px;
+        z-index: 1;
+        text-decoration: none;
+    }
+    h3{
+        font-size: small;
+    }
+    h4{
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        font-weight: bold;
+        color: #0d8df0;
+        box-shadow: 0 0 25px black;
+        background-color: darkgray;
+        border-radius: 5px;
+        padding: 10px 0px;
+        width: 40%;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+    .abo{
+        position: relative;
+        z-index: 1;
+        border-radius: 10px;
+        background-color: rgba(0.2, 0.2, 0.2, 0.5);  
+        padding: 10px;
+        width: 90%;
+        margin: auto;
+    }
+    .abo p{
+        color: white; 
+        font-size: 10px; 
+        text-align: justify; 
+        padding: 10px;
+    }
+    .educ,
+.hob{
+    position: relative;
+    z-index: 1;
+    margin: 10px;
+}
+    .educ li{
+        font-size: smaller;
+    }
+    .hob li{
+        font-size: x-small;
+    }
+    .educ p{
+        font-size: x-small;
+    }
+    .exp {
+        position: relative;
+        display: inline-block;
+        width: 40%;
+        padding: 30px 10px;
+        margin: 1%;
+        text-align: center;
+        border-radius: 15px;
+        transition: all 0.35s ease-in-out;
+        color: white;
+    }
+    .dev {
+        position: relative;
+        display: inline-block;
+        width: 40%;
+        padding: 30px 10px;
+        margin: 1%;
+        text-align: center;
+        border-radius: 15px;
+        transition: all 0.35s ease-in-out;
+        color: white;
+    }
+    .grap {
+        position: relative;
+        display: inline-block;
+        width: 40%;
+        padding: 30px 10px;
+        margin: 1%;
+        text-align: center;
+        border-radius: 15px;
+        transition: all 0.35s ease-in-out;
+        color: white;
+    }
+    .ex {
+        position: relative;
+        display: inline-block;
+        width: 40%;
+        padding: 30px 10px;
+        margin: 1%;
+        text-align: center;
+        border-radius: 15px;
+        transition: all 0.35s ease-in-out;
+        color: white;
+    }
+       .exp img,
+       .dev img,
+       .grap img,
+       .ex img{
+height: 50px;
+       } 
+.exp h3{
+font-size: smaller;
+       } 
+                
+.dev h3{
+font-size: smaller;
+       } 
+                
+.ex h3{
+font-size: smaller;
+       } 
+                
+.grap h3{
+font-size: smaller;
+       } 
+       
+    .contac{
+        position: relative;
+        margin-left: 20px;
+    }
+    .column-left{
+        width: 90%;
+        position: relative;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        padding: 10px;
+        margin: 5px;
+        display: block;
+        margin-left: 10px;
+    }
+    .column-right{
+        width: 90%;
+        position: relative;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        padding: 10px;
+        margin: 5px;
+        float: left;
+        margin-left: 10px;
+    }
+    /* FORM */
+    .contacc{
+        position: relative;
+        margin-left: 10px;
+    }
+    .form {
+        text-align: center;
+        box-shadow: burlywood;
+        box-shadow: 0 0 25px black;
+        background-color: transparent;
+        border-radius: 5px;
+        margin-left: 200px;
+    }
+    
+    .form-group input {
+        width: 90%;
+        border: 0;
+        outline: none !important;
+        padding: 5px;
+        margin:1%;
+        display: inline-block;
+        background-color: wheat;
+        border-radius: 2px;
+        font-size: xx-small;
+    }
+    
+    .form-group textarea {
+        width: 90%;
+        border: 0;
+        outline: none !important;
+        padding: 5px;
+        margin: 1%;
+        background-color: wheat;
+        border-radius: 2px;
+        font-size: xx-small;
+    }
+    
+    .submit-btn {
+        border: 0;
+        color: black;
+        text-decoration: none;
+        outline: none !important;
+        padding: 3px;
+        margin: 2%;
+        background-color: wheat;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .submit-btn a{
+        font-size: xx-small;
+    }
+    .contac p{
+        font-size: x-small;
+    }
+    .foot{
+        margin: 2px;
+    }
+    .foot a{
+        font-size: 11px;
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        color: white;
+        margin: 3px;
+        padding: 5px;
+        transition: ease-in-out 0.6s;
+    }
+   }
+   /* ----------- Pixel 2 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 411px) 
+and (max-device-width: 731px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .hed{
+        margin: 2px;
+    }
+    .hed a{
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        color: white;
+        margin: 2px;
+        padding: 4px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+        width: 20%;
+        transition: ease-in-out 0.6s;
+    }
+    .hed h1{
+        font-size: 18px;
+    }
+    .prelude{
+        position: relative;
+        z-index: 1;
+        /* background-color: rgba(0, 0, 0, 0.5); */
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+        height: 100px;
+    }
+    .prelude span{
+        color: aqua;
+    }
+    .prelude h1{
+        text-align: center;
+        color: white;
+        font-size: 8vw;
+        top: 20px;
+        position: relative;
+    }
+    .nav{
+        height: 80px;
+        width: 80%;
+        position: relative;
+        z-index: 1;
+    }
+    .nav img{
+        width: 20px;
+        margin: 5px;
+        transition: ease-in-out .5s;
+        top: 50px;
+        position: relative;
+    }
+   
+      h2{
+          position: relative;
+        text-align: center;
+        color: white;
+        font-size: small;
+        margin: 20px;
+        padding: 10px;
+        background-color: aqua;
+        border-radius: 10px;
+        width: 150px;
+        z-index: 1;
+        text-decoration: none;
+    }
+    h3{
+        font-size: small;
+    }
+    .abo{
+        position: relative;
+        z-index: 1;
+        border-radius: 10px;
+        background-color: rgba(0.2, 0.2, 0.2, 0.5);  
+        padding: 10px;
+        width: 90%;
+        margin: auto;
+    }
+    .abo p{
+        color: white; 
+        font-size: 10px; 
+        text-align: justify; 
+        padding: 10px;
+    }
+    .educ,
+.hob{
+    position: relative;
+    z-index: 1;
+    margin: 10px;
+}
+    .educ li{
+        font-size: smaller;
+    }
+    .hob li{
+        font-size: x-small;
+    }
+    .educ p{
+        font-size: x-small;
+    }
+    .exp {
+        position: relative;
+        display: inline-block;
+        width: 40%;
+        padding: 30px 10px;
+        margin: 1%;
+        text-align: center;
+        border-radius: 15px;
+        transition: all 0.35s ease-in-out;
+        color: white;
+    }
+    .dev {
+        position: relative;
+        display: inline-block;
+        width: 40%;
+        padding: 30px 10px;
+        margin: 1%;
+        text-align: center;
+        border-radius: 15px;
+        transition: all 0.35s ease-in-out;
+        color: white;
+    }
+    .grap {
+        position: relative;
+        display: inline-block;
+        width: 40%;
+        padding: 30px 10px;
+        margin: 1%;
+        text-align: center;
+        border-radius: 15px;
+        transition: all 0.35s ease-in-out;
+        color: white;
+    }
+    .ex {
+        position: relative;
+        display: inline-block;
+        width: 40%;
+        padding: 30px 10px;
+        margin: 1%;
+        text-align: center;
+        border-radius: 15px;
+        transition: all 0.35s ease-in-out;
+        color: white;
+    }
+       .exp img,
+       .dev img,
+       .grap img,
+       .ex img{
+height: 50px;
+       } 
+.exp h3{
+font-size: smaller;
+       } 
+                
+.dev h3{
+font-size: smaller;
+       } 
+                
+.ex h3{
+font-size: smaller;
+       } 
+                
+.grap h3{
+font-size: smaller;
+       } 
+       
+    .contac{
+        position: relative;
+        margin-left: 20px;
+    }
+    .column-left{
+        width: 90%;
+        position: relative;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        padding: 10px;
+        margin: 5px;
+        display: block;
+        margin-left: 10px;
+    }
+    .column-right{
+        width: 90%;
+        position: relative;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        padding: 10px;
+        margin: 5px;
+        float: left;
+        margin-left: 10px;
+    }
+    /* FORM */
+    .contacc{
+        position: relative;
+        margin-left: 10px;
+    }
+    .form {
+        text-align: center;
+        box-shadow: burlywood;
+        box-shadow: 0 0 25px black;
+        background-color: transparent;
+        border-radius: 5px;
+        margin-left: 200px;
+    }
+    
+    .form-group input {
+        width: 90%;
+        border: 0;
+        outline: none !important;
+        padding: 5px;
+        margin:1%;
+        display: inline-block;
+        background-color: wheat;
+        border-radius: 2px;
+        font-size: xx-small;
+    }
+    
+    .form-group textarea {
+        width: 90%;
+        border: 0;
+        outline: none !important;
+        padding: 5px;
+        margin: 1%;
+        background-color: wheat;
+        border-radius: 2px;
+        font-size: xx-small;
+    }
+    
+    .submit-btn {
+        border: 0;
+        color: black;
+        text-decoration: none;
+        outline: none !important;
+        padding: 3px;
+        margin: 2%;
+        background-color: wheat;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .submit-btn a{
+        font-size: xx-small;
+    }
+    .contac p{
+        font-size: x-small;
+    }
+    .foot{
+        margin: 2px;
+    }
+    .foot a{
+        font-size: 18px;
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        color: white;
+        margin: 3px;
+        padding: 5px;
+        transition: ease-in-out 0.6s;
+    }
+   }

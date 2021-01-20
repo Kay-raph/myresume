@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="css\bootstrap.css"></script>
+    <link
+        href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bevan|Boogaloo|Bowlby+One+SC|Caveat+Brush|Changa+One|Chewy|Concert+One|Fredoka+One|Kumar+One|Lilita+One|Monoton|Nanum+Pen+Script|Patrick+Hand|Permanent+Marker|Rock+Salt|Rubik+Mono+One|Seymour+One|Sigmar+One|Special+Elite|Titan+One|Ultra&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Amaranth|Anton|Baloo|Baloo+Bhai|Bowlby+One+SC|Calistoga|Concert+One|Fredoka+One|Fugaz+One|IBM+Plex+Mono|Modak|Pangolin|Rubik+Mono+One|Special+Elite|Varela+Round|Viga&display=swap"
+        rel="stylesheet">
+    <link href="..\css\style.css" rel="stylesheet" type="text/css">
+    <link href="..\css\background.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="icon icons/cv.png">
+    <title>Portfolio</title>
+</head>
+<script>
+     function startTime() {
+            var today = new Date();
+            var h = today.getHours();
+            var m = today.getMinutes();
+            var s = today.getSeconds();
+            m = checkTime(m);
+            s = checkTime(s);
+            document.getElementById('txt1').innerHTML =
+                h + ":" + m + ":" + s;
+            var t = setTimeout(startTime, 500);
+        }
+        function checkTime(i) {
+            if (i < 10) { i = "0" + i }; // add zero in front of numbers < 10
+            return i;
+        }
+</script>
+<style>
+    body
+    {
+        margin: 0;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    #txt1{
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+        padding: 5px;
+        width: 70px;
+        border-radius: 5px;
+    color: #2196F3;
+     font-weight: bolder;
+    margin: auto;
+}
+</style>
+<body onload="startTime()">
+    <div class="container" id="cont">
+    <div class="bck"><a style="text-decoration: none;" href="index.html"><b>
+        <h4>HOME</h4>
+    </b></a></div>
+</div>
+<!-- <div class="nav">
+    <a href="index.html">
+        <p style="float: left;">HOME</p>
+    </a>
+    <a href="https://github.com/Kay-raph"><img src="soc\gthub.png"></a>
+    <a href="https://www.pinterest.com/kayraph/"><img src="soc\pint.png"></a>
+    <a href="https://linkedin.com/in/kevin-mugita-13848b154"><img src="soc\linkin.png"></a>
+    <a href="https://twitter.com/DjKay_25"><img src="soc\twee.png"></a>
+    <a href="https://www.instagram.com/kayraph_illest/"><img src="soc\instag.png"></a>
+    <a href="https://www.facebook.com/code.pappa.9"><img src="soc\face.png"></a>
+</div> -->
+<ul class="cb-slideshow">
+    <span id="n1"></span>
+    <span id="n2"></span>
+    <span id="n3"></span>
+    <span id="n4"></span>
+    <span id="n5"></span>
+    <span id="n6"></span>
+    <span id="n7"></span>
+    <span id="n8"></span>
+    <span id="n9"></span>
+    <span id="n10"></span>
+    <span id="n11"></span>
+    <span id="n12"></span>
+</ul>
+    <div class="container" id="cont">
+        <br><br><br>
+        <center>
+        <div class="cv" style="display: block;">
+            <img src="cvs/0001.jpg" width="100%" style="margin: auto;">
+            <img src="cvs/0002.jpg" width="100%" style="margin: auto;">
+            <img src="cvs/0003.jpg" width="100%" style="margin: auto;">
+        </div>
+    </center>
+        <br>
+        <div class="bck"><a style="text-decoration: none;" href="index.html"><b>
+                    <h4>BACK</h4>
+                </b></a></div><br><br><br>
+                </div>
+        <div class="footer" style="position: fixed; padding: 5px; height: 65px;">
+            <div id="txt1"></div>
+            <p>&copy 2020|All rights reserved|Designed by <a href="https://github.com/Kay-raph"><b>kevin raphael</b></a></p>
+        </div>
+        </body>
+        </html>

@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+	<link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bevan|Boogaloo|Bowlby+One+SC|Caveat+Brush|Changa+One|Chewy|Concert+One|Fredoka+One|Kumar+One|Lilita+One|Monoton|Nanum+Pen+Script|Patrick+Hand|Permanent+Marker|Rock+Salt|Rubik+Mono+One|Seymour+One|Sigmar+One|Special+Elite|Titan+One|Ultra&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Amaranth|Anton|Baloo|Baloo+Bhai|Bowlby+One+SC|Calistoga|Concert+One|Fredoka+One|Fugaz+One|IBM+Plex+Mono|Modak|Pangolin|Rubik+Mono+One|Special+Elite|Varela+Round|Viga&display=swap"
+        rel="stylesheet">
+    <link href="src\css\style.css" rel="stylesheet" type="text/css">
+    <link href="src\css\background.css" rel="stylesheet" type="text/css">
+    <link href="src\css\timer.css" rel="stylesheet" type="text/css">
+    <link href="src\css\loaders.css" rel="stylesheet" type="text/css">
+    <link href="src\css\load.css" rel="stylesheet" type="text/css">
+    <link href="src/css/cards.css" rel="stylesheet" type="text/css"/>
+    <link rel="icon" href="icon icons/cv.png" type="image">
+    <title>Portfolio</title>
+</head>
+<style>
+    body
+    {
+    scroll-behavior: smooth;
+    margin-left: 0px;
+    margin-right: 0px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+     }
+      /* Add animation to "page content" */
+  /* Add animation to "page content" */
+  .animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1.5s;
+    animation-name: animatebottom;
+    animation-duration: 1.5s
+  }
+  
+  @-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:-50px; opacity:0.5 }
+    to { bottom:0px; opacity:1 }
+  }
+  
+  @keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to { bottom:-50px; opacity:0.5 }
+    to{ bottom:0; opacity:1 }
+  }
+#myDiv {
+  display: none;
+}
+
+</style>
+
+<body onload="myFunction()" style="margin:0;">
+    <!-- <div id="loader"></div> -->
+    <div class="loader" id="loaded">
+        <span>{</span><p12 id="p12" style="font-size: medium; font-weight: 800;">"Think it, Code it"</p12><span>}</span>
+      </div>
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+
+    <script>
+        var myVar;
+
+        function myFunction() {
+            myVar = setTimeout(showPage, 3000);
+        }
+
+        function showPage() {
+            document.getElementById("loaded").style.display = "none";
+            myVar = setTimeout(showPage, 3000);
+        }
+
+        function showPage() {
+            document.getElementById("loaded").style.display = "none";
+ 
+            document.getElementById("myDiv").style.display = "block";
+        }
+    </script>
+    <div class="bacg">
+    <ul class="cb-slideshow">
+        <span id="n1"></span>
+        <span id="n2"></span>
+        <span id="n3"></span>
+        <span id="n4"></span>
+        <span id="n5"></span>
+        <span id="n6"></span>
+        <span id="n7"></span>
+        <span id="n8"></span>
+        <span id="n9"></span>
+        <span id="n10"></span>
+        <span id="n11"></span>
+        <span id="n12"></span>
+    </ul>
+    </div>
+    <center>
+        <div class="hed" id="hedd">
+            <h1><b>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#project">Projects</a>
+                <a href="#contact">Contact</a>
+            </b></h1>
+        </div>
+    </center>
+    <div class="prelude">
+<h1><b><span> < </span>Think it. Code it.<span> /> </span></b></h1>
+    </div>
+    
+    <div class="nav">
+        <center>
+      <a href="https://github.com/Kay-raph"><img src="src\soc\gthub.png"></a>
+      <a href="https://www.pinterest.com/kayraph/"><img src="src\soc\pint.png"></a>
+      <a href="https://linkedin.com/in/kevmugita"><img src="src\soc\linkin.png"></a>
+      <a href="https://twitter.com/DjKay_25"><img src="src\soc\twee.png"></a>
+      <a href="https://www.instagram.com/Ayam_kayraph/"><img src="src\soc\instag.png"></a>
+      <a href="https://www.facebook.com/code.pappa.9"><img src="src\soc\face.png"></a>
+    </center>
+  </div>
+  <br>
+
+<center>
+  <h2 id="about" style="font-weight: bold;"><b>About me</b></h2>
+</center>
+      <div class="abo">
+        <br><br>
+        <p>
+       I still remember the first time that I produced the words “Hello World” in the console of my first
+        computer application,
+        and it is there and then that I realized that my first journey among many in the world of software development
+        had just
+        began.
+        Software development has never been “just a job” for me, it has offered an engaging challenge that has
+        continually helped
+        me to learn more and improve my skills in creating high-quality software applications. What started as a simple
+        “Hello-world” has
+        now become a passionate and more exciting experience that only gets better as the years go by.
+    </p>
+      <div class="educ">
+        <h3 style="color: white;text-align: justify; font-weight: bold;"><u>Education</u></h3>
+        <ul style="color: white;"><b>
+                <li style="color: wheat;">Moringa School.</li>
+                <p><b style="color: aqua;">Software Engineering</b> - November 2019 to January 2020</p>
+                <li style="color: wheat;">eMobilis Institute of Technology.</li>
+                <p><b style="color: aqua; ">Mobile Application Development</b> - August 2016 to January 2017
+                </p>
+                <li style="color: wheat;">Jomo Kenyatta University of Technology &
+                    Agriculture.</li>
+                <p><b style="color: aqua;">Business Information Technology</b> - May 2014 to September 2015
+                </p>
+            </b></ul>
+    </div>
+    <div class="hob">
+
+        <h3 style="color: white;text-align: justify;"><u>Hobbies & interests</u></h3>
+        <ul style="color: white;"><b>
+                <li id="cc"><img src="src/hobbies/com.png" style="height: 25px; width: 25px;"> Computer,Video Games,android apps
+                    and Coding</li><br>
+                <li id="tr"><img src="src/hobbies/fly.png" style="height: 25px; width: 25px;"> Travelling</li><br>
+                <li id="rd"><img src="src/hobbies/book.png" style="height: 25px; width: 25px;"> Reading</li><br>
+                <li id="ms"><img src="src/hobbies/drum.png" style="height: 25px; width: 25px;"> Music and Musical
+                    instruments(Guitar,Drumsets,Jimbi.....)</li><br>
+                <li id="sf"><img src="src/hobbies/scifi.png" style="height: 25px; width: 25px;"> Sci-fi Movies, Tech documentaries</li>
+                <br>
+                <li id="gn"><img src="src/hobbies/nerd.png" style="height: 25px; width: 25px;"> General knowledge and 
+                    Research</li><br>
+                <li id="sp"><img src="src/hobbies/game.png" style="height: 25px; width: 25px;"> Sports(Football,
+                    Basketball and Table tennis)</li>
+            </b>
+        </ul>
+    </div>
+  </div>
+  <center>
+    <h2 id="skills" style="font-weight: bold;"><b>My skills</b></h2>
+  </center>
+  <center>
+  <div class="skill">
+    <div class="exp">
+        <img src="src/skills/www.png" id="mg1">
+        
+        <h3>WEB<br> APP DESIGN</h3>
+        <p id="p1"><b>As a web app designer,i have good knowledge and skills in the usage of:<br>HTML,HTML5,
+                CSS, CSS3, jQuery,Bootstrap,ES6, JavaScript, AngularJs, Github and github pages, Wordpress and the use
+            of the following text editors;<br>
+                
+                    VScode<br>
+                    Atom<br>
+                    Sublimetext<br>
+                    Brackets<br>
+                    Windows NotePad<br>
+                    Powershell<br>
+                    linux/iOS terminals</b>
+            </p>
+    </div>
+    <div class="dev">
+        <img src="src/skills\Android_icon.png" id="mg2">
+        <h3>ANDROID<br> APP DEVELOPMENT</h3>
+        <p id="p2">I create and Develop android mobile apps using;<br><b>
+                    HTML,
+                    XML,
+                    JavaScript,
+                    SQLite,
+                    MySQL,
+                    PHP and PHP storm,
+                    Android studio,
+                    Eclipse,
+                    WampServer,
+                    XXamp,
+                    Sublimetext &
+                    Java Netbeans.
+                </b>
+                
+            </b><b"><br>Contests attended;<br>Metta Weekend Hackathon 2016,
+                Nairobi
+            <br> Co-led a team of five developers to create a healthcare mobile app and web platform
+            with gynaecological and oncological information for women in low resource areas. I supported the
+            team to design the user interface and develop the backend using advanced Java, XML, PHP and
+            MySQL enabling the team to rapidly deliver the app and web platforms within 24 hours, and secure
+            best runners up position out of six participating teams.</b></p>
+    </div>
+    <div class="grap">
+        <img src="src/skills\desig.png" id="mg3">
+        <h3>GRAPHICS<br>AND DESIGN</h3>
+        <p id="p3">As a Graphics Designer,I create memorable logo designs,club
+            posters,campaign posters,hand outs,banners,T-shirt screenprints.<br>These are the tools i
+            use;<br><b>
+                   Adobe Photoshop<br>
+                    Chorel Draw<br>
+                    Adobe InDesign<br>
+                    Adobe Illustrator<br>
+                    Figma<br>
+                    Paint
+                   
+                </b>
+            </p>
+    </div>
+    <div class="ex">
+        <img src="src/skills\wix.ico" id="mg4">
+        <h3>CONTENT <br> MANAGEMENT SYSTEMS</h3>
+        <b><p id="p4">Can efficiently develop industry level web applications using:
+            <br>
+                    Wordpress<br>
+                    Wix site<br>
+                    Joomla<br>
+                    Shopify<br>
+                    Woocommerce
+            </b><br></p>
+    </div>
+  </div>
+  <div class="proj">
+    <center>
+  <h2 id="project" style="text-align: center; font-weight: bold;">Recent projects</h2>
+</center>
+</div>
+<div class="container">
+<div class="card">
+    <div class="face face1">
+      <div class="content">
+        <img src="src/projects/logo1.png"/>
+      </div>
+    </div>
+    <div class="face face2">
+      <div class="content">
+        <h3>
+          <a href="https://www.nyaligolf.com" target="_blank">Nyali Golf & Country Club</a>
+        </h3>
+        <p>Built Using Wordpress</p>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="face face1">
+      <div class="content">
+        <img src="src/projects/trop.png" width="400px" height="auto"/>
+      </div>
+    </div>
+    <div class="face face2">
+      <div class="content">
+        <h3>
+          <a href="https:www.tropicalenterprise.co.uk" target="_blank">Tropical Enterprise & Co ltd</a>
+        </h3>
+        <p>Built Using Wordpress</p>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="face face1">
+      <div class="content">
+        <img src="src/projects/crm8.png" width="160px" height="auto">
+      </div>
+    </div>
+    <div class="face face2">
+      <div class="content">
+        <h3>
+          <a href="tukoworks.netlify.app" target="_blank">Tukoworks</a>
+        </h3>
+        <p>Hard coded using HTML, CSS, SCSS, PHP(Laravel) & Bootstrap</p>
+      </div>
+    </div>
+</div>
+  <div class="card">
+    <div class="face face1">
+      <div class="content">
+        <img src="src/projects/norris.png" width="200px" height="auto">
+      </div>
+    </div>
+    <div class="face face2">
+      <div class="content">
+        <h3>
+          <a href="https://kay-raph.github.io/chuck-api/" target="_blank">Chuck Norris Joke API</a>
+        </h3>
+        <p>Built using with React Js(Axios)<br>Generates random chuck norris jokes</p>
+      </div>
+    </div>
+</div>
+  <div class="card">
+    <div class="face face1">
+      <div class="content">
+        <img src="src/projects/pizalog.png" width="200px" height="auto">
+      </div>
+    </div>
+    <div class="face face2">
+      <div class="content">
+        <h3>
+          <a href="https://kay-raph.github.io/Mypizza/" target="_blank">Pizza Delivery WebApp</a>
+        </h3>
+        <p>Hard coded using HTML, CSS, and JavaScript prototyping tools</p>
+      </div>
+    </div>
+</div>
+  <div class="card">
+    <div class="face face1">
+      <div class="content">
+        <img src="src/projects/hpe.jpg" width="300px" height="auto">
+      </div>
+    </div>
+    <div class="face face2">
+      <div class="content">
+        <h3>
+          <a href="https://github.com/BuildForSDG/team-260-qualityeducation" target="_blank">Build4SDGs Facebook</a>
+        </h3>
+        <p>Built using HTML, CSS, SCSS, PHP(Laravel)</p>
+      </div>
+    </div>
+</div>
+  </div>
+<!-- <div class="wrapper">
+    <div class="card"><img src="src/projects/logo1.png"/>
+      <div class="info">
+        <h1>Nyali Golf and COuntry Club</h1>
+        <p style="color: aqua;">Created using WordPress and WordPress plugins</p>
+        <button><a style="text-decoration: none;color: red;"
+
+            href="https://www.nyaligolf.com ">Click to view</a></button>
+      </div>
+    </div>
+    
+    <div class="card"><img src="src/projects/fit.jpg"/>
+        <div class="info">
+          <h1>Freight In Time</h1>
+          <p style="color: aqua;">Website cleaning from malicious japanese SEO keywords</p>
+          <button><a href="https://www.freightintime.com"
+              style="text-decoration: none;color: red;">
+              click to view</a></button>
+        </div>
+      </div>
+      <br> <br>
+  
+    <div class="card"><img src="src/projects/norris.png"/>
+      <div class="info">
+        <h1>Chuck Norris Jokes API</h1>
+        <p style="color: aqua;">API data fetch using axios for Chuck Norris Jokes & Facts</p>
+        <button><a href="https://kay-raph.github.io/chuck-api/"
+            style="text-decoration: none;color: red;" >Click to view</a></button>
+      </div>
+    </div>
+    
+    <div class="card"><img src="src/projects/akaan.png"/>
+        <div class="info">
+          <h1>Akan Naming App</h1>
+          <p style="color: aqua;">Javascript based API that fetches ghananian names</p>
+          <button><a href="https://kay-raph.github.io/AkansName.io/"
+              style="text-decoration: none;color: red;">Click to view</a></button>
+        </div>
+      </div>
+      <br> <br>
+    <div class="card"><img src="src/projects/pizalog.png"/>
+      <div class="info">
+        <h1>Pizza ordering Web App</h1>
+        <p style="color: aqua;">Build using javascript indexing prototyping data arrays CSS and HTML</p>
+        <button><a href="https://kay-raph.github.io/Mypizza/"
+            style="text-decoration: none;color: red;" >Click to view</a></button>
+      </div>
+    </div>
+    
+    <div class="card"><img src="src/projects\hpe.jpg"/>
+        <div class="info">
+          <h1>Build4SDGs with Andela and Facebook Cohort 1</h1>
+          <p style="color: aqua;">Quality Education Web App using php and Javascript</p>
+          <button><a href="https://github.com/BuildForSDG/team-260-qualityeducation"
+              style="text-decoration: none;color: red;">Click to view</a></button>
+        </div>
+      </div>
+   
+  </div> -->
+
+<hr>
+<div class="row" style="text-align: justify;">
+<div class="conten" style="margin: 20px;">
+    <div class="column-left">
+<div class="contac" id="contact">
+    <h3><u>Contacts</u></h3>
+    <p
+        style="letter-spacing: 2px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+    <a href="mailto:kevmuita@gmail.com" style="text-decoration: none; color: white;"><img src="src\soc\mail.png" style="height: 25px; width: 25px;"><b> Kevmugita@gmail.com</a></b><br><br>
+        <a href="https://api.whatsapp.com/send?phone=+254710288908" style="text-decoration: none; color: white;"><img
+            src="src/soc/whatsapp.png" style="height: 25px; width: 25px;"><b> +254710288908</a></b><br><br><b>
+                <a href="tel:0793705996" style="text-decoration: none; color: white;"><img src="src\soc\call.png" style="height: 25px; width: 25px;"> +254793705996</a></b></p><br>
+<br>
+<div class="pdf">
+    <a href="cv.html">
+        <p><b><img src="src/icons/doc1.png" style="width: 25px; height: 25px;">Link to my CV</b></p>
+    </a>
+</div>
+</div>
+</div>
+
+<div class="column-right">
+    <div class="contacc">
+        <h3><u>Send a Message</u></h3>
+        <form id="frm" action="mailto:kevmugita@gmail.com" method="post" enctype="text/plain">
+            <div class="form-group">
+                <input type="email" style="color: black;" placeholder="Email" required>
+                <textarea rows="2" style="color: black;" placeholder="Type Message" required></textarea>
+            <button type="submit" class="submit-btn"><a style="text-decoration: none;">SEND MESSAGE</a></button>
+        </div>
+        </form>
+</div>
+</div>
+</div>
+</div>
+
+<br><br>
+    <div class="foot" style="position: relative; bottom: 0; width: 100%;">
+    
+            <a href="#about">About me</a>
+            <a href="#skills">My Skills</a>
+            <a href="#project">Projects</a>
+            <a href="#hedd">Back to Top</a>
+    
+    </div>
+    <script>
+        
+ $(document).ready(function () {
+    $(".exp #p1").hide();
+   $(".exp").click(function () {
+       $(".exp #p1").css("color", "white").toggle(1000);
+      $(".exp #mg1").toggle(1000).show(1000);
+    });
+
+    $(".dev #p2").hide();
+    $(".dev").click(function () {
+        $(".dev #p2").css("color", "white").toggle(1000);
+        $(".dev #mg2").toggle(1000).show(1000);;
+    });
+
+
+    $(".grap #p3").hide();
+    $(".grap").click(function () {
+        $(".grap #p3").css("color", "white").toggle(1000);
+        $(".grap #mg3").toggle(1000).show(1000);;
+    });
+    $(".ex #p4").hide();
+    $(".ex").click(function () {
+        $(".ex #p4").css("color", "white").toggle(1000);
+        $(".ex #mg4").toggle(1000).show(1000);;
+    });
+   
+    $(".hobby .int").hide();
+    $(".hobby").click(function () {
+        $(".hobby .int").toggle(1000);
+        $(".hobby").slideUp(1000).show(1000);;
+    });
+});
+
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>  
+    <script src="src/css/bootstrap.css"></script>
+    <script src="src/js/scripts.js"></script>
+    </div>
+    </body>
+    </html>

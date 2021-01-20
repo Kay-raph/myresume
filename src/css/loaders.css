@@ -1,0 +1,45 @@
+.loader {
+   display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  background-color: white;
+  color: #2db9ae;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  font-size: 30vh;
+  opacity: 1;
+  -webkit-animation: 6s infinite;
+  animation: 6s infinite;
+  height: 100%;
+}
+.loader span {
+  display: inline-block;
+  -webkit-animation: pulse 0.8s alternate infinite ease-in-out;
+          animation: pulse 0.8s alternate infinite ease-in-out;
+}
+.loader #p12{
+  display: inline-block;
+  -webkit-animation: pulse 0.8s alternate infinite ease-in-out;
+          animation: pulse 0.8s alternate infinite ease-in-out;
+}
+.loader span:nth-child(odd) {
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+@-webkit-keyframes pulse {
+  to {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    opacity: 0.5;
+  }
+}
+@keyframes pulse {
+  to {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    opacity: 0.5;
+  }
+}

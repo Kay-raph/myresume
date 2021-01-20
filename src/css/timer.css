@@ -1,0 +1,11 @@
+.footer #txt1{
+    display: none;
+    background-color: white;
+       box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+       padding: 5px;
+       width: 70px;
+       border-radius: 5px;
+   color: #2196F3;
+    font-weight: bolder;
+   margin: auto;
+}
